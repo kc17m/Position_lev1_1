@@ -9,19 +9,21 @@
 
 
 body {
-    font-family: Poppins, sans-serif;
-    height: 100vh;  
+    background: url(../img/photo-1486523834155-1dabf4edaa64.jpeg) no-repeat center/cover; 
+    
+    height: 100vh;
+    
+     
     
 }
 
-section {
+section {   
+    
     position: relative;
-}
+    }
 
 article {
-    text-transform: uppercase;
-    z-index: 2;
-    color: white;
+    
     position: absolute;
     top: 20px;
     right: 20px;
@@ -30,6 +32,9 @@ article {
 h1, p {
     color: white;
     font-weight: 400;
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+    color: white;
 }
 
 h1 {
